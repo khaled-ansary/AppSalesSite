@@ -1,0 +1,133 @@
+
+/* ==========================================================================
+   Khaled's custom styles
+   ========================================================================== */
+
+body {
+  padding-top: 50px;
+}
+.em-text{
+    color: #1caa98 !important;
+}
+.section{
+    padding: 40px 0 40px 0;
+}
+.col-md-4{
+    margin-bottom: 20 px;
+}
+.jumbotron{
+    background:#1b222a url(../img/site_showcase_bg.jpg) no-repeat top center;
+    color: #fff;
+    height: 598px;
+    overflow:no-display;
+}
+.jumbotron .app-btn{
+    width: 40%;
+    margin-right: 30px;
+    
+}
+.jumbotron h1{
+    margin-top: 60px;
+}
+.jumbotron p{
+    margin-bottom: 40px;
+}
+.jumbotron img.showcase-img{
+    width: 75%;
+}
+.demo{
+    width: 100%;
+    padding: 3px;
+    border: 1px solid #ccc;
+}
+section#feature{
+    background: #1caa98;
+    color:#fff;
+    padding: 40px;
+    overflow: auto;
+}
+section#feature ul li{
+    font-size: 22px;
+    list-style: none;
+    line-height: 2.0em;
+}
+.big-logo{
+    width: 100%;
+}
+section#title-bar{
+    padding: 0;
+    margin: 0;
+    height: 80px;
+    background: #1caa98;
+    color: #fff;
+}
+section#titile-bar h1{
+    margin-bottom: 20px;
+}
+footer{
+    background: #333;
+    color:#fff;
+    padding: 30px 0 20px 0;
+}
+footer li{
+    float:left;
+    padding: 0 10px 0 10px;
+    list-style: none;
+}
+footer a{
+    color:#fff;
+}
+footer p{
+    float:right;
+}
+/* Media QUERIES*/
+
+@media(max-width: 1200px){
+   
+}
+@media(max-width: 991px){
+    .showcase-img{
+        display: none !important;
+    }
+}
+@media(max-width: 768px) and (max-width: 990px){
+    .jumbotron .app-btn{
+        width: 30%;
+     
+    }
+    .jumbotron {
+        height: 400px !important;
+        background-size: 100%;
+        
+    }
+    .jumbotron .h1{
+       margin-top: 10px;
+    }
+}
+@media(max-width: 768px){
+    .jumbotron {
+        height: 350px !important;
+        background-size: 100%;
+        
+    }
+    .jumbotron .h1{
+       margin-top: 10px;
+    }
+}
+@media(max-width: 500px){
+     .jumbotron {
+        height: 450px !important;
+        background: none;
+        text-align: center;
+    }
+    .jumbotron .app-btn{
+        width: 60%;
+        margin: 0 auto 30px auto;
+        display: block;
+     
+    }
+}
+
+
+
+
